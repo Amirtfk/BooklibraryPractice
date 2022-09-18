@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+@Repository    // REPOSITORY ist unsere Datenlager
 public class BookDB {
 
     private Map<String, Book> books = new HashMap<>(

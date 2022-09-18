@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-@Service
+@Service   // Service : wir möchten als beispiel die Ware numer 11 haben, dann gehen wir in unsere Datenlager (Repo) rein und nehemn wir unsere gewünschte Ware und dann geben wir Controller zurückund dann Controller gibt die Ware nach oben > Front-End
 public class BookService {
 
     private BookDB bookRepository; // Unsere BookService welche Dependency hat? > BookDbn in Repository
